@@ -1,0 +1,62 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contents-top {
+  padding: 180px 0 100px;
+  background-image: url("https://prog-8.com/images/html/advanced/top.png"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    color: white;
+    opacity: 0.7;
+  }
+  p {
+    color: white;
+    opacity: 0.7;
+  }
+  .sns {
+    margin-top: 30px;
+    button {
+      border-radius: 4px;
+      opacity: 0.8;
+      color: white;
+      padding: 8px 24px;
+      border: none;
+      i {
+        margin-right: 5px;
+      }
+    }
+    .signup-button {
+      background-color: #239b76;
+    }
+    .facebook-button {
+      background-color: #3b5998;
+      margin-right: 10px;
+    }
+    .twitter-button {
+      background-color: #55acee;
+    }
+    p {
+      margin: 15px 0;
+    }
+  }
+}
