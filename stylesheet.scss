@@ -60,3 +60,31 @@ a {
     }
   }
 }
+header {
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  width: 100%;
+  // top: 0;
+  .header-contents{
+    // padding-top: 20px;
+    // padding-bottom: 20px;
+    margin: 0 auto;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    img {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      width: 124px;
+    }
+    .login {
+      color: white;
+      background-color: rgba(255, 255, 255, 0.3);
+      padding: 20px 25px;
+      &:hover {
+        transition: all 0.5s;
+        background-color: rgba(255, 255, 255, 0.5);
+      }
+    }
+  }
+}

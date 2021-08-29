@@ -69,4 +69,39 @@ a {
 .contents-top .sns p {
   margin: 15px 0;
 }
+
+header {
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  width: 100%;
+}
+
+header .header-contents {
+  margin: 0 auto;
+  width: 1170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header-contents img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 124px;
+}
+
+header .header-contents .login {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 20px 25px;
+}
+
+header .header-contents .login:hover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: rgba(255, 255, 255, 0.5);
+}
 /*# sourceMappingURL=stylesheet.css.map */
