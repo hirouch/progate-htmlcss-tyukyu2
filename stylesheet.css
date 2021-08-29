@@ -74,6 +74,7 @@ header {
   background-color: rgba(34, 49, 52, 0.9);
   position: fixed;
   width: 100%;
+  z-index: 9;
 }
 
 header .header-contents {
@@ -103,5 +104,67 @@ header .header-contents .login:hover {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   background-color: rgba(255, 255, 255, 0.5);
+}
+
+.contents-middle {
+  text-align: center;
+  background-color: #f7f7f7;
+  padding-top: 80px;
+}
+
+.contents-middle h2 {
+  margin-bottom: 50px;
+  color: #5f5d60;
+  font-weight: normal;
+}
+
+.contents-middle .language-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contents-middle .language-box .language-card {
+  width: 25%;
+}
+
+.contents-middle .language-box .language-card .language-img-box {
+  position: relative;
+}
+
+.contents-middle .language-box .language-card .language-img-box .language-img {
+  padding: 0 10%;
+}
+
+.contents-middle .language-box .language-card .language-img-box .language-img-text {
+  position: absolute;
+  top: 43%;
+  color: white;
+}
+
+.contents-middle .language-box .language-card .language-img-box .htmlcss {
+  left: 40%;
+}
+
+.contents-middle .language-box .language-card .language-img-box .jQuery {
+  left: 45%;
+}
+
+.contents-middle .language-box .language-card .language-img-box .ruby {
+  left: 46%;
+}
+
+.contents-middle .language-box .language-card .language-img-box .php {
+  left: 47%;
+}
+
+.contents-middle .language-box .language-card p {
+  padding: 0 10%;
+  color: #b3aeb5;
+  font-size: 13px;
+  margin-top: 15px;
 }
 /*# sourceMappingURL=stylesheet.css.map */

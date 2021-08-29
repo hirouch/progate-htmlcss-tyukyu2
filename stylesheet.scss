@@ -64,6 +64,7 @@ header {
   background-color: rgba(34, 49, 52, 0.9);
   position: fixed;
   width: 100%;
+  z-index: 9;
   // top: 0;
   .header-contents{
     // padding-top: 20px;
@@ -84,6 +85,55 @@ header {
       &:hover {
         transition: all 0.5s;
         background-color: rgba(255, 255, 255, 0.5);
+      }
+    }
+  }
+}
+
+.contents-middle {
+  text-align: center;
+  background-color: #f7f7f7;
+  padding-top: 80px;
+  h2 {
+    margin-bottom: 50px;
+    color: #5f5d60;
+    font-weight: normal;
+  }
+  .language-box {
+    display: flex;
+    justify-content: space-between;
+    .language-card {
+      width: 25%;
+      
+      // padding: 0 10%;
+      .language-img-box {
+        position: relative;
+        .language-img {
+          padding: 0 10%;
+        }
+        .language-img-text {
+          position: absolute;
+          top: 43%;
+          color: white;
+        }
+        .htmlcss {
+          left: 40%;
+        }
+        .jQuery {
+          left: 45%;
+        }
+        .ruby {
+          left: 46%;
+        }
+        .php {
+          left: 47%;
+        }
+      }
+      p {
+        padding: 0 10%;
+        color: #b3aeb5;
+        font-size: 13px;
+        margin-top: 15px;
       }
     }
   }
