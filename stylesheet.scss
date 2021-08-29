@@ -138,3 +138,39 @@ header {
     }
   }
 }
+
+.contents-bottom {
+  padding-bottom: 80px;
+  text-align: center;
+  .container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    .heading {
+      padding-top: 80px;
+      padding-bottom: 50px;
+      color: #5f5d60;
+    }
+    .message {
+      padding: 15px 40px;
+      background-color: #5dca88;
+      cursor: pointer;
+      box-shadow: 0 7px #1a7940;
+      &:active {
+        position: relative;
+        top: 7px;
+        box-shadow: none;
+      }
+    }
+    .btn {
+      padding: 8px 24px;
+      color: white;
+      display: inline-block;
+      opacity: 0.8;
+      border-radius: 4px;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}

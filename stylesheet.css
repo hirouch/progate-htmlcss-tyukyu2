@@ -167,4 +167,48 @@ header .header-contents .login:hover {
   font-size: 13px;
   margin-top: 15px;
 }
+
+.contents-bottom {
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.contents-bottom .container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.contents-bottom .container .heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.contents-bottom .container .message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  -webkit-box-shadow: 0 7px #1a7940;
+          box-shadow: 0 7px #1a7940;
+}
+
+.contents-bottom .container .message:active {
+  position: relative;
+  top: 7px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.contents-bottom .container .btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.contents-bottom .container .btn:hover {
+  opacity: 1;
+}
 /*# sourceMappingURL=stylesheet.css.map */
